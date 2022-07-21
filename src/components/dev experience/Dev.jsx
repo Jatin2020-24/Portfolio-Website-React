@@ -4,12 +4,13 @@ import "./dev.css";
 const Dev = () => {
     return (
         <div className='d'>
+            <div className="d-bg"></div>
             <div className="d-container">
                 <h1 className="d-title">
                     Dev Experience
                 </h1>
 
-                <div className="d-exp-1">
+                <div className="d-exp">
                     <p className="d-company">
                         Google Summer of Code
                     </p>
@@ -27,7 +28,7 @@ const Dev = () => {
                     </li>
                 </div>
 
-                <div className="d-exp-2">
+                <div className="d-exp">
                     <p className="d-company">
                         Microsoft Engage Programme
                     </p>
@@ -42,7 +43,7 @@ const Dev = () => {
                     </li>
                 </div>
 
-                <div className="d-exp-3">
+                <div className="d-exp">
                     <p className="d-company">
                         Sparks Foundation
                     </p>

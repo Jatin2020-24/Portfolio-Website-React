@@ -27,3 +27,20 @@
 .e-college{
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 480px){
+    .e{
+        margin-top: 85rem;
+    }
+
+    .e-education{
+        margin: 0px;
+        margin-left: 38px;
+        text-align: left;
+    }
+
+    .e-title{
+        padding-bottom: 20px;
+        font-size: 50px;
+    }
+}
