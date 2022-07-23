@@ -1,0 +1,46 @@
+.e{
+    height: 40vh;
+    margin-top: 100px;
+}
+
+.e-education{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    margin-left: 200px;
+    line-height: 30px;
+}
+
+.e-title{
+    font-size: 45px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.e-sub{
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.e-college{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .e{
+        margin-top: 85rem;
+    }
+
+    .e-education{
+        margin: 0px;
+        margin-left: 38px;
+        text-align: left;
+    }
+
+    .e-title{
+        padding-bottom: 20px;
+        font-size: 50px;
+    }
+}

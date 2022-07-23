@@ -1,0 +1,73 @@
+.d{
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+.d-container{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.d-title{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.d-exp{
+    margin-bottom: 30px;
+}
+
+.d-company{
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+.d-position{
+    padding-bottom: 5px;
+    color: brown;
+}
+
+.d-position:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.d-time{
+padding-bottom: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .d{
+        margin-top: 50px;
+    }
+
+    .d-bg{
+        width: 20px;
+        height: 210%;
+        background-color: brown;
+        position: absolute;
+    }
+
+    .d-title{
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+    .d-container{
+        margin: 0px;
+        margin-left: 50px;
+    }
+
+    .d-exp{
+        padding-right: 45px;
+        text-align: justify;
+        line-height: 2;
+    }
+
+    .d-exp li{
+        padding-bottom: 5px;
+    }
+
+}
